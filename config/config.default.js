@@ -68,6 +68,7 @@ module.exports = appInfo => {
   config.cors = {
     origin: '*',
   };
+  // TODO egg端口
   config.cluster = {
     listen: {
       path: '',
